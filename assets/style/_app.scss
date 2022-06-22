@@ -1,0 +1,24 @@
+@import 'mixin';
+@import 'variable';
+@import 'header';
+@import 'footer';
+@import 'media';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue",
+            Helvetica, Arial, sans-serif;
+}
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+

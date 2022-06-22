@@ -1,0 +1,623 @@
+@media (max-width: 1024px) {
+  #drive-customers {
+    padding: 12% 10% 5% 10% !important;
+    .drive-customers-container {
+      &-title {
+        h3 {
+          font-size: 48px !important;
+        }
+        p {
+          font-size: 17px !important;
+        }
+        &-btnbox {
+          &-btn {
+            & button {
+              width: 105% !important;
+            }
+          }
+          &-button {
+            & button {
+              width: 100% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #choose {
+    .choose-container {
+      &-title {
+        p {
+          width: 60% !important;
+          margin: 0 20% !important;
+        }
+      }
+      &-boxes {
+        &-box {
+          &-image {
+            img {
+              width: 23% !important;
+            }
+            span {
+              font-size: 14px !important;
+            }
+          }
+          &-title-content {
+            padding: 20px !important;
+
+            p {
+              width: 100% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #business {
+    .business-container {
+      &-content {
+        h4 {
+          width: 75% !important;
+        }
+        p {
+          width: 70% !important;
+        }
+      }
+      &-video {
+        &-frame {
+          iframe {
+            height: 340px !important;
+          }
+        }
+      }
+    }
+  }
+  #client {
+    .client-container {
+      &-content {
+        p {
+          width: 60% !important;
+          margin: 0 20% !important;
+        }
+      }
+      &-boxes {
+        &-box {
+          &-icon {
+            p {
+              width: 100% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #team {
+    .team-container {
+      &-title {
+        p {
+          width: 60% !important;
+          margin-left: 20% !important ;
+        }
+      }
+    }
+  }
+  #contact {
+    .contact-container {
+      &-btn {
+        button {
+          width: 25% !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header-wrapper {
+    &-menu-list {
+      margin-left: 37%;
+      ul {
+        display: none;
+      }
+    }
+  }
+  #drive-customers {
+    .drive-customers-container {
+      &-title {
+        h3 {
+          font-size: 35px !important;
+          line-height: 60px !important;
+        }
+        p {
+          width: 90% !important;
+          font-size: 12px !important;
+          line-height: 20px !important;
+        }
+        &-btnbox {
+          &-btn {
+            margin-right: 30px;
+            button {
+              width: 135% !important;
+              font-size: 11px !important;
+              padding: calc(0.875rem - 20px) calc(1.5rem - 20px) !important;
+            }
+          }
+          &-button {
+            button {
+              font-size: 11px !important;
+              width: 100% !important;
+              padding: calc(0.875rem - 10px) calc(1.5rem - 10px) !important;
+            }
+          }
+        }
+      }
+      &-bookap {
+        padding: 20px 25px !important;
+        &-btn {
+          button {
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+  }
+  #choose {
+    .choose-container {
+      &-title {
+        h4 {
+          font-size: 35px !important;
+        }
+        P {
+          font-size: 13px !important;
+          width: 75% !important;
+          margin: 0 13% !important;
+        }
+      }
+      &-boxes {
+        display: flex;
+        flex-direction: column;
+        &-box {
+          width: 50% !important;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  #business {
+    .business-container {
+      &-content {
+        h4 {
+          width: 85% !important;
+          font-size: 35px !important;
+        }
+        p {
+          font-size: 13px !important;
+          width: 90% !important;
+          margin: 0 18% !important;
+        }
+      }
+      &-video {
+        &-frame {
+          width: auto !important;
+          margin-left: 40px;
+          iframe {
+            width: 400px !important ;
+            height: 250px !important;
+          }
+        }
+      }
+    }
+  }
+  #client {
+    .client-container {
+      &-content {
+        h4 {
+          font-size: 35px !important;
+        }
+        p {
+          width: 70% !important;
+          font-size: 13px !important;
+          margin: 0 15% !important;
+        }
+      }
+      &-boxes {
+        display: flex;
+        flex-direction: column;
+        &-box {
+          width: 50% !important;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  #team {
+    .team-container {
+      &-title {
+        h4 {
+          font-size: 35px !important;
+        }
+        P {
+          font-size: 13px !important ;
+          width: 80% !important;
+          margin-left: 12% !important;
+        }
+      }
+      &-boxes {
+        display: flex;
+        flex-direction: column;
+        &-box {
+          width: 90% !important;
+          margin-bottom: 15px;
+         
+        }
+      }
+    }
+  }
+  #contact {
+    .contact-container {
+      &-btn {
+        button {
+          width: 35% !important;
+        }
+      }
+    }
+  }
+  #consulting {
+    .consulting-container {
+      &-button {
+        width: 25% !important;
+      }
+    }
+  }
+  .footer {
+    &-container {
+      &-link {
+        display: flex;
+        flex-wrap: wrap;
+        &-page {
+          margin-bottom: 25px;
+          button{
+              width: 20% !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  #drive-customers {
+    .drive-customers-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      &-title {
+        width: 90% !important;
+        margin-bottom: 20px;
+        text-align: center;
+        h3 {
+          margin-left: 10%;
+        }
+        p {
+          width: 64% !important;
+          margin-left: 20%;
+        }
+        &-btnbox {
+          gap: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-right: 0 !important;
+          &-btn {
+              width: 70%;
+              margin-left: 12%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            button {
+
+              width: 180% !important;
+            }
+          }
+          &-button {
+              width: 50%;
+            button {
+              width: 110% !important ;
+            }
+          }
+        }
+      }
+      &-bookap {
+        width: 90% !important;
+      }
+    }
+  }
+  #choose {
+    .choose-container {
+      &-title {
+        h4 {
+          width: 66% !important;
+          margin-left: 20%;
+        }
+        p {
+          width: 60% !important;
+          font-size: 12px !important;
+          margin: 0 22% !important;
+        }
+      }
+      &-boxes-box {
+        width: 90% !important;
+        &-image {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  #business {
+    .business-container {
+      &-content {
+        h4 {
+          display: none;
+        }
+        h5 {
+          display: block !important;
+            width: 100% !important;
+            font-size: 35px !important;
+            margin: 0 6% !important;
+        }
+        p{
+            width: 70% !important;
+            font-size: 12px !important;
+        }
+      }
+      &-video {
+        height: 500px !important;
+      }
+      &-video-frame {
+        padding-top: 34%;
+        margin-left: 0 !important;
+        margin-right: 10px;
+        iframe {
+          width: 300px !important;
+          height: 400px !important;
+        }
+      }
+    }
+  }
+  #client{
+        .client-container{
+            &-content{
+                h4{
+                    width: 60% ;
+                    margin-left: 20%;
+                }
+                p{
+                    font-size: 12px !important;
+                    width: 60% !important;
+                    margin: 0 20% !important
+                }
+            }
+            &-boxes-box{
+                width: 80% !important;
+            }
+        }
+    }
+    #team{
+        .team-container{
+            &-title{
+                h4{
+                    width: 50% !important;
+                    margin-left: 25%;
+                }
+                p{
+                    font-size: 12px !important;
+                    width: 55% !important;
+                    margin-left: 23% !important;
+                }
+            }
+        }
+    }
+    #contact{
+      .contact-container{
+          
+          &-text-input{
+            display: flex ;
+            flex-direction: column;
+            gap: 20px;
+              width: 90% !important;
+              padding: 0 !important;
+              &-name{
+                  width: 100% !important;
+              }
+          }
+          &-text-select{
+            display: flex ;
+            flex-direction: column;
+            gap: 20px;
+              width: 90% !important;
+              padding: 0 !important;
+              &-department{
+                width: 100% !important;
+              }
+          }
+          &-textarea{
+              width: 90% !important;
+          }
+          &-btn{
+              button{
+                  width: 90% !important;
+              }
+          }
+      }
+    }
+    #consulting{
+        .consulting-container{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            &-content{
+                padding: 10% 0;
+                margin-left: 10%;
+                h4{
+                    width: 70%;
+                }
+                p{
+                    width: 55% !important;
+                }
+            }
+            &-button{
+                width: 90% !important;
+                button{
+                    width: 93% !important;
+                }
+            }
+        }
+    }
+    .footer{
+        &-container{
+            padding: 0 !important;
+            &-title{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 20% !important;
+                gap: 50px;
+
+                
+            }
+            hr{
+                display: none !important;
+            }
+            &-link{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 20%;
+                &-page{
+                    button{
+                        width: 30%!important;
+                    }
+                }
+            }
+        }
+        &-last{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                width: 56%;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width: 360px) {
+    .header-wrapper{
+        &-menu-list{
+            margin-left: 20% !important;
+        }
+    }
+    #drive-customers{
+        .drive-customers-container{
+            &-title{
+                p{
+                    font-size: 14px !important;
+                }
+                
+            }
+
+        }
+    }
+    #choose{
+        .choose-container{
+            &-title{
+                h4{
+                    width: 77% !important;
+                }
+                p{
+                    width: 70% !important;
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+    #business{
+        .business-container{
+            &-content{
+                height: 400px !important;
+                p{
+                    width: 100% !important;
+                    font-size: 14px !important;
+                    margin: 0 7% !important;
+                }
+            }
+            &-video{
+                height: 430px !important;
+            }
+            &-video-frame{
+                left: 10% !important;
+                frame{
+                    width: 200px !important;
+
+                }
+            }
+        }
+    }
+    #client{
+        .client-container{
+            &-content{
+                h4{
+                    width: 75% !important;
+                }
+                P{
+                    width: 70% !important;
+                    font-size: 14px !important;
+                }
+            }
+            &-boxes{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &-box{
+                    width: 100% !important;
+                }
+            }
+
+        }
+    }
+    #team{
+        .team-container{
+            &-title{
+                h4{
+                    width: 60% !important;
+                }
+                p{
+                    width: 70% !important;
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+    #consulting{
+        .consulting-container{
+            &-content{
+                h4{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+    .footer{
+        &-container-link-page{
+            button{
+                width: 25% !important;
+            }
+        }
+        &-last{
+            p{
+                width: 75% !important;
+            }
+        }
+    }
+}
